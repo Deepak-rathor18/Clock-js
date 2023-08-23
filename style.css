@@ -1,0 +1,69 @@
+body{
+    background-color:  #20bf6aa3;
+}
+header{
+    width: 100%;
+    line-height: 15vh;
+    background-color: #20bf6b;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Carter One',cursive;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 0 1px 0 #efefef,
+                 0 2px 0 #efefef,
+                 0 3px 0 #efefef,
+                 0 4px 0 #efefef,
+                 0 30px 5px rgba(0,0,0.1);
+}
+#clock{
+    font-size: 160px;
+    width: 1000px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 20px #f4eded;
+    margin-top: 10%;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    
+}
+.bg-color{
+    background-color:  #20bf6a;
+}
+
+
+/* meadiaquery */
+
+
+@media only screen and (max-width: 900px) {
+  
+    #clock{
+        font-size: 60px;
+        width: 500px;
+        box-shadow: 3px 10px #f4eded;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #clock{
+        font-size: 50px;
+        width: 500px;
+        box-shadow: 3px 9px #f4eded;
+        margin-top: 10%;
+    }
+  }
+@media only screen and (max-width: 350px) {
+    #clock{
+        font-size: 40px;
+        width: 500px;
+        box-shadow: 2px 5px #f4eded;
+        margin-top: 10%;
+    }
+  }
